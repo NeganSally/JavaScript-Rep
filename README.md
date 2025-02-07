@@ -1,1 +1,1 @@
-# JavaScript-Rep
+# JavaScript-Rep: All JS projects will be placed here
