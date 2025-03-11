@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    </head>
+    <script>
+        // Instantaneously hide all paragraphs
+        $( "p" ).hide();
+        
+        // Instantaneously show all divs that have the hidden style class
+        $( "div.hidden" ).show();
+
+        $(document).ready(function() {
+            $("html").append(
+                "<body>\
+                    <div id='container'>\
+                        <div id=inner'>\
+                            <p id='1'>Paragragh 1</p>\
+                            <p id='2'>Paragragh 2</p>\
+                            <p id='3'>Paragragh 3</p>\
+                        </div>\
+                    </div>\
+                </body>"
+            );
+            $("#2").css({"color":"red"});
+            $("#3").click(funciton() {
+                $("h1").hide();
+            });
+        });
+    </script>
+</html>
